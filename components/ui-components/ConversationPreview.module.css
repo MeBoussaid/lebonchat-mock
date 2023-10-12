@@ -1,0 +1,24 @@
+.conversationsContainer {
+  width: 470px;
+}
+
+.senderName {
+  text-transform: capitalize;
+  color: var(--black-white--text);
+}
+
+.messageOverview {
+  width: 300px;
+}
+
+/* Media Query */
+@media (max-width: 500px) {
+  .conversationsContainer {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .messageOverview {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,18 @@
+.conversationsContainer {
+  width: 470px;
+}
+.messagesContainer {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  max-height: 66vh;
+  overflow: scroll;
+}
+
+/* Media Query */
+@media (max-width: 500px) {
+  .conversationsContainer {
+    width: 100%;
+    overflow: hidden;
+  }
+}

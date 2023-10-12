@@ -1,0 +1,25 @@
+.inputGroup {
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.label {
+  margin-bottom: 4px;
+}
+
+.inputField {
+  padding: 10px;
+  border-color: var(--primary-color);
+  border-radius: var(--border-radius);
+  background-size: 0.01px;
+}
+.inputErrorMessage {
+  margin-top: 3px;
+  color: red;
+  font-size: 13px;
+}
+.inputErrorStyle {
+  background-color: rgba(221, 116, 116, 0.39);
+
+  border-color: rgba(237, 95, 95, 0.946);
+}

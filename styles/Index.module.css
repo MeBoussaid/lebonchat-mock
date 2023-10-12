@@ -1,0 +1,9 @@
+.authCardContainer {
+  width: 470px;
+}
+/* Media Query */
+@media (max-width: 500px) {
+  .authCardContainer {
+    width: 100%;
+  }
+}

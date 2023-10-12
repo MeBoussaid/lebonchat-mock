@@ -1,0 +1,17 @@
+.card {
+  color: var(--card-text--color);
+  background-color: var(--card-background--color);
+  box-shadow: var(--card-shadow);
+  transition: all 0.2s;
+  height: fit-content;
+  border-radius: var(--border-radius);
+}
+
+.cardHover:hover {
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.568);
+  cursor: pointer;
+}
+
+.cardWithoutShadow {
+  box-shadow: none;
+}

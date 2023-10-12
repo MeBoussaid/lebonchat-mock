@@ -1,0 +1,10 @@
+.footer {
+  color: var(--all-app-text-color);
+  background-color: var(--header-footer--background-color);
+  height: auto;
+  padding: 10px;
+  /*this for keeping the footer down in all cases - Elie*/
+  margin-top: auto;
+  /*FIN - this for keeping the footer down in all cases - Elie*/
+  border-top: solid 0.5px var(--primary-color);
+}

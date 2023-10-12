@@ -1,0 +1,24 @@
+.messageSentContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.messageReceivedContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.messageCard {
+  max-width: 70%;
+  min-width: 30%;
+}
+
+.messageText {
+  font-size: 14px;
+}
+
+.senderName {
+  margin-top: 5px;
+  font-size: 10px;
+  color: rgb(177, 177, 177);
+}

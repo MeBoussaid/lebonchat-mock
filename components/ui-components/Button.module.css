@@ -1,0 +1,38 @@
+.btn {
+  font-size: 16px;
+  padding: 10px;
+  transition: var(--custom-transition--speed);
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius);
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.primary {
+  background-color: var(--primary-color);
+  color: var(--btn-plein-color);
+  font-family: "Courier Prime", monospace;
+  border: none;
+}
+
+.primary:hover {
+  background-color: var(--primary-color--OnHover);
+  cursor: pointer;
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+  color: var(--btn-plein-color);
+  font-family: "Courier Prime", monospace;
+  border: none;
+}
+
+.secondary:hover {
+  background-color: var(--secondary-color--OnHover);
+  cursor: pointer;
+}

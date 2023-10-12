@@ -1,0 +1,6 @@
+.header {
+  color: var(--all-app-text-color);
+  background-color: var(--header-footer--background-color);
+  height: var(--header-height);
+  border-bottom: solid 0.5px var(--primary-color);
+}
